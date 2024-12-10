@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS accounts
+(
+    id      INT UNSIGNED AUTO_INCREMENT NOT NULL PRIMARY KEY ,
+    user_id INT,
+    type    VARCHAR(255),
+    balance BIGINT NOT NULL DEFAULT 0
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8mb4;

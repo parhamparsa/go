@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS transfers
+(
+    id     BIGINT AUTO_INCREMENT PRIMARY KEY,
+    `from` INT    NOT NULL,
+    `to`   INT    NOT NULL,
+    amount BIGINT NOT NULL
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8mb4;

@@ -1,0 +1,6 @@
+addr: ":8080"
+mysql:
+  maxOpenConnections: 10
+  maxIdleConnections: 10
+  maxConnectionLifeTime: 3600 #seconds
+  maxIdleConnectionLifeTime: 300 #seconds

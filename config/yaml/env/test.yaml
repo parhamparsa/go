@@ -1,0 +1,5 @@
+mysql:
+  user: root
+  password: root
+  host: localhost:3306
+  dbName: db_test
